@@ -1,3 +1,6 @@
+from keep_alive import keep_alive
+keep_alive()  # Inicia o servidor Flask
+
 import time
 from binance.client import Client
 
